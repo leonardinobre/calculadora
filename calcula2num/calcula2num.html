@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calcula2num.css">
+</head>
+
+
+<body>
+    
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+
+    <section>
+
+        <h2>Relação entre dois números:</h2>
+
+        <h3>Digite os números;
+            selecione a operação
+            e click em Calcule !</h3>
+
+
+        <div>
+
+            <input type="number" name = 'txtnum1' id = 'txtnum1'>
+            <input type="number" name = 'txtnum2' id = 'txtnum2'>
+
+        <p> <input type="radio" name = "operacao" id = "soma"> Soma
+            <input type="radio" name = "operacao" id = "produto"> Multiplicação
+            <input type="radio" name = "operacao" id = "diferenca"> Subtração
+            <input type="radio" name = "operacao" id = "quociente"> Divisão
+        </p>
+            
+        <p> <input type="radio" name = "operacao" id = "resto"> Resto da Divisão
+            <input type="radio" name = "operacao" id = "potencia"> Exponenciação
+            <input type="radio" name = "operacao" id = "raiz"> Radiciação
+            <input type="radio" name = "operacao" id = "hipotenusa"> Hipotenusa
+        </p>   
+        
+        <p>
+            <input type="button" value="Calcule" onclick="calcular()" id = 'calc'>
+        </p>
+        
+        </div>
+
+        
+
+        <div id = 'res'>    
+            
+            <p><strong>O resultado aparecerá aqui!</strong></p>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; As AsMinhasPáginas</p>
+    </footer>
+
+</body>
+
+<script src="calcula2num.js"></script>
+
+</html>
